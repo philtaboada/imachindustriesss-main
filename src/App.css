@@ -1,0 +1,102 @@
+.contenedor {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.user-input,
+.password-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.button-login {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button-login:hover {
+  background-color: #0056b3;
+  }
+
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .return-button {
+    background-color: #ccc;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .return-button:hover {
+    background-color: #999;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .nav-button:last-child {
+    margin-right: 0;
+  }
+
+  .link-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+.logo-link{
+    border: none;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
