@@ -10,7 +10,7 @@ export function Login() {
   //
   //
   const user = 'administrador' 
-  const pass = 'bot$21' 
+  const pass = 'bot$01235' 
 
   //
   //
